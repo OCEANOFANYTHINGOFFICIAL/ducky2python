@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Convert DuckyScript to Python Scripts</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="https://oceanofanythingg.blogspot.com/favicon.ico" type="image/x-icon">
+	<meta name="description" content="Convert DuckyScript to Python Scripts">
+	<meta name="keywords" content="bad usb, rubber ducky, hak5, convert, script, python">
+	<script src="resources/js/index.js"></script>
+	<style>
+		body {
+			margin-top: 20px;
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: #f4f4f4;
+			color: #555;
+			font-size: 16px;
+			margin: 0;
+			line-height: 1.6em;
+			text-align: center;
+		}
+
+		a {
+			text-decoration: none;
+			color: inherit;
+		}
+
+		.navbar {
+			background-color: rgb(192, 183, 53);
+			margin: none;
+			padding: 10px;
+			width: 100%;
+			height: auto;
+			line-height: 0.5em;
+			font-size: 18px;
+		}
+		.navbar.container{
+			margin: 50px;
+		}
+
+		.navbar h1 {
+			color: white;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.about {
+			text-align: center;
+		}
+
+		.container {
+			width: 75%;
+			margin: auto;
+			overflow: hidden;
+		}
+
+		textarea {
+			width: 100%;
+			font-size: 14px;
+			height: auto;
+		}
+
+		button {
+			font-size: 18px;
+			padding: 5px;
+			border-radius: 5px;
+			margin: 10px;
+			border-width: 0px;
+			background-color: #c9ccd1;
+		}
+
+		img {
+			height: auto;
+			width: auto;
+			max-width: 80px;
+			max-height: 80px;
+			margin: 10px;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div class="navbar">
+		<div class="container">
+			<br>
+			<br>
+			<a href="https://github.com/CedArctic/ducky2python" target="_blank">
+				<h1>Convert Your Ducky Script To Python Script</h1>
+			</a>
+			<br>
+			<br>
+			<a href="https://github.com/OCEANOFANYTHINGOFFICIAL" target="_blank">
+				<p>by OCEAN OF ANYTHING</p>
+			</a>
+			<br>
+			<br>
+		</div>
+
+	</div>
+
+
+	<div class="container about">
+		<p>Convert DuckyScript scripts (of the hak5 USB Rubber Ducky) to Python programs that can run on your computer
+			without a rubber ducky.</p>
+
+		<p>Why DuckyScript and why Python? It's easy! DuckyScript is simple and easy to learn and has become a standard
+			in the BadUSB and pentesting community, Python also is easy to be written and is arguably one of the most
+			portable programming languages available. Combine the two using ducky2python and you have a really easy to
+			learn and powerfull automation tool in your hands!</p>
+	</div>
+
+	<div class="container">
+		<textarea rows=15 id="inputBox" placeholder="Enter Your Ducky Script Here to convert..."></textarea>
+		<button onclick="if(document.getElementById('inputBox').value != ''){convert()}">Convert</button>
+		<textarea rows=15 id="outputBox" placeholder="Your Converted Python script will appear here."></textarea>
+	</div>
+	<br>
+	<br>
+</body>
+
+</html>
