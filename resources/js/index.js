@@ -5,7 +5,7 @@ function convert() {
 	var pythonScript = "";
 
 	// Write module imports to output file:
-	pythonScript += "# Converted using ducky2python by OCEAN OF ANYTHING (https://github.com/OCEANOFANYTHINGOFFICIAL/ducky2python) \n";
+	pythonScript += "# Converted using ducky2python by OCEAN OF ANYTHING (https://oceanofanythingofficial.github.io/ducky2python) \n";
 	pythonScript += "import pyautogui\n";
 	pythonScript += "import time\n";
 
